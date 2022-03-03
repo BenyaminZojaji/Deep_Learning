@@ -1,4 +1,4 @@
-## Deep_Learning
+# Deep Learning
 ## Assignment 1
 #### Face Classification
 - Face Classification with **DeepFace** library.
