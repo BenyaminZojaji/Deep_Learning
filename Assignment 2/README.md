@@ -1,5 +1,6 @@
 ## MLP vs CNN+MLP
 
+- <a href="https://drive.google.com/drive/folders/1gBmgFu9Unbmq9jR4XSnrO7h6h2YxihpW?usp=sharing">Download Models</a>.
 
 |               | Accuracy |                 |             |              |
 | :-----------: | :------: | :-------------: | :---------: | :----------: |
