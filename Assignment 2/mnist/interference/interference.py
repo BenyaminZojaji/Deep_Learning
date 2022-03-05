@@ -20,3 +20,4 @@ img = img/255.0
 img = img.reshape(1,28,28)
 
 result = np.argmax(model.predict(img))
+print(result)
