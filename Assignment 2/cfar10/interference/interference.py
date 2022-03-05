@@ -9,9 +9,9 @@ parser.add_argument('--model', type=str, help='mlp/cnn', default='cnn')
 args = parser.parse_args()
 
 if args.model == 'mlp':
-    model = load_model('mlp-mnist-2.h5')
+    model = load_model('mlp-cfar10.h5')
 else:
-    model = load_model('CNN-MLP-mnist-optAdam.h5')
+    model = load_model('cnn-mlp-cfar10.h5')
 
 img = cv2.imread(args.input)
 img = cv2.resize(img, (32,32))
