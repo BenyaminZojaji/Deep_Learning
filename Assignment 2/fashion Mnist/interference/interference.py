@@ -17,7 +17,7 @@ img = cv2.imread(args.input)
 img = cv2.resize(img, (28,28))
 img = cv2.cvtColor(img, (img, cv2.COLOR_BGR2GRAY))
 img = img/255.0
-img = img.reshape(1,28,28)
+img = img.reshape(28,28,1)
 
 result = np.argmax(model.predict(img))
 print(result)
