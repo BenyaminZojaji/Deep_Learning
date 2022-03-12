@@ -1,5 +1,5 @@
 ## Accessory Recognizer
-- The database consists of 4 categories of images that you can view <a href='#'>here</a>.
+- The database consists of 4 categories of images that you can view <a href='https://drive.google.com/drive/folders/1Mc-kEMtB0P91tYunK1kVwZ8BjiA0HsZU'>here</a>.
 - Training a CNN network on dataset.
 
 - Recognize:
