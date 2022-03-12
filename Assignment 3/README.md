@@ -17,5 +17,9 @@
 
 </br>
 
+- <a href='http://t.me/AccessoryDetectorbot'>A telegram-bot that recognizes what accessory is by giving it a picture.</a>
+
+</br>
+
 - Confusion Matrix:
 >  ![output](https://user-images.githubusercontent.com/77120507/158018189-5fc9c501-d5f4-4761-b7b5-4058bc2ac01b.png)
