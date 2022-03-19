@@ -1,8 +1,10 @@
 ## 17 Flowers
+- Dataset: <a href='https://www.kaggle.com/datasets/saidakbarp/17-category-flowers'>17 category flowers</a>
 - 17 flowers Classification using Tensorflow Keras.
 - Model:
   - Resnet50V2
   - Xception
+
 
 </br>
 
@@ -13,4 +15,4 @@
 
 </br>
 
-Dataset: <a href='https://www.kaggle.com/datasets/saidakbarp/17-category-flowers'>17 category flowers</a>
+
