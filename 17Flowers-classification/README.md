@@ -4,6 +4,7 @@
 - Model:
   - Resnet50V2
   - Xception
+  - InceptionResNetV2
 
 
 </br>
@@ -11,7 +12,8 @@
 |                      | Accuracy          | Loss              |
 | :------------------: | :----------------:| :---------------: |
 | ResNet50V2           |   84.19%          |  0.51             |
-| Xception             |              |                  |
+| Xception             |   81.99%          |  0.61             |
+| InceptionResNetV2    |   75.37%          |  0.75             |
 
 </br>
 
