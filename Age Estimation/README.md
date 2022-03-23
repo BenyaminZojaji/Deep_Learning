@@ -3,7 +3,9 @@
 - Estimating human age using Tensorflow Keras.
 - Model:
   - Xception
+  - Resnet50V2
 
 |           | Loss(mse) |
 | --------- |:---------:|
 | Xception  | 124.68    |
+| Resnet50V2| 145.41    |
