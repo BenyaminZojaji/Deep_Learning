@@ -9,7 +9,7 @@
   python cnn_regression.py -d HousesDataset
   ````
 
-- interference:
+- inference:
   - Simply add 4 image into `pic` folder, including bathroom, bedroom, kitchen and frontal of house.
   - usage:
    
