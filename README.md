@@ -123,3 +123,4 @@ usage: interfrence.py [--input INPUT] [--model MODEL]
 | Xception  | 124.68    |
 | Resnet50V2| 145.41    |
 
+---
