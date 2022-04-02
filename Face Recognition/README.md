@@ -6,7 +6,7 @@
 |:-:|:-:|:-:|
 | Model | 84% | 0.02 |
 
-- inference:
+- Inference:
 
   ````shell
   usage: python inference.py [image PATH] [weight PATH]
