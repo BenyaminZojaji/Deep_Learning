@@ -23,6 +23,7 @@ class MyModel(Model):
     x = self.conv2d_3(x)
     #x = self.conv2d_4(x)
     x = self.flatten(x)
+    x = self.dropout1(x)
     #x = self.dense_1(x)
     #x = self.dense_2(x)
     out = self.dense_3(x)
