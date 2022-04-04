@@ -124,4 +124,3 @@ usage: interfrence.py [--input INPUT] [--model MODEL]
 | Resnet50V2| 145.41    |
 
 ---
-
