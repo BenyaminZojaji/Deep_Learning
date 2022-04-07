@@ -1,6 +1,6 @@
 # Deep Learning
 ## Assignment 1
-#### Face Classification
+### Face Classification
 - Face Classification with **DeepFace** library.
 - Read 200 images from 4 different actors, use `ArcFace` model to get Feature vectors of them and save in a csv file.
 - Create MLP with tensorflow and fit data.
@@ -11,7 +11,7 @@
 
 ---
 ## Assignment 2
-#### MLP vs CNN+MLP
+### MLP vs CNN+MLP
 
 - <a href="https://drive.google.com/drive/folders/1gBmgFu9Unbmq9jR4XSnrO7h6h2YxihpW?usp=sharing">Download Models</a>.
 
@@ -29,7 +29,7 @@ usage: interfrence.py [--input INPUT] [--model MODEL]
 ```
 ---
 
-#### Sheikh Detector
+### Sheikh Detector
 - The database consists of 4 categories of images. you can view it <a href='#'>here</a>.
 - Using VGG16 model.
 - Classes:
@@ -53,7 +53,7 @@ usage: interfrence.py [--input INPUT] [--model MODEL]
 - Confusion Matrix:
   > ![confmat](https://user-images.githubusercontent.com/77120507/158569528-8188f50f-c95f-452d-9f2d-b16e09c4783d.png)
 ---
-#### Face Mask Detection
+### Face Mask Detection
 - Face Mask Detection using **Tensorflow Keras**, **PySide6**, **open-cv**.
 - Dataset: <a href='https://www.kaggle.com/datasets/ashishjangra27/face-mask-12k-images-dataset'>Images Dataset</a>
 - Model:
@@ -71,7 +71,7 @@ usage: interfrence.py [--input INPUT] [--model MODEL]
 > https://user-images.githubusercontent.com/77120507/159115385-75fb3494-471c-46bd-aa86-f13935adc3ed.MP4
 
 ---
-#### 17 Flowers
+### 17 Flowers
 - Dataset: <a href='https://www.kaggle.com/datasets/saidakbarp/17-category-flowers'>17 category flowers</a>
 - 17 flowers Classification using Tensorflow Keras.
 - Model:
@@ -91,7 +91,7 @@ usage: interfrence.py [--input INPUT] [--model MODEL]
 </br>
 
 ---
-#### Houses Price
+### Houses Price
 - Dataset: <a href='https://github.com/emanhamed/Houses-dataset'>Link</a> 
 - usage:
 
@@ -111,7 +111,7 @@ usage: interfrence.py [--input INPUT] [--model MODEL]
      ````
   
 ---
-## Age Estimation
+### Age Estimation
 - Dataset: <a href='https://www.kaggle.com/datasets/jangedoo/utkface-new'>utkface</a>
 - Estimating human age using Tensorflow Keras.
 - Model:
@@ -124,3 +124,16 @@ usage: interfrence.py [--input INPUT] [--model MODEL]
 | Resnet50V2| 145.41    |
 
 ---
+### Face Recognition
+- Face Recognition exercise using Tensorflow.
+
+
+|  | Accuracy | Loss |
+|:-:|:-:|:-:|
+| Model | 84% | 0.02 |
+
+- Inference:
+
+  ````shell
+  usage: python inference.py [image PATH] [weight PATH]
+  ````
