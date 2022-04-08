@@ -5,7 +5,7 @@
 
 || Accuracy | Loss |
 |:-:|:-:|:-:|
-| Personal Model | 84% | 1.62 |
+| Personal Model | 79.1% | 1.66 |
 
 - Inference:
   ```shell
