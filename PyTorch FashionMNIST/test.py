@@ -54,7 +54,7 @@ transform = torchvision.transforms.Compose([
 
 if '__name__'=='__main__':
   dataset = torchvision.datasets.FashionMNIST('./dataset', train=False, download=True, transform=transform)
-  test_data_loader = torch.utils.data.DataLoader(dataset, batch_size=batch_size, shuffle=True)
+  test_data_loader = torch.utils.data.DataLoader(dataset, batch_size=batch_size, shuffle=False)
 
   device = torch.device(args.processor)
 
