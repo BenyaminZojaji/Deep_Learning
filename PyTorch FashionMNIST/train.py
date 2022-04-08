@@ -9,7 +9,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--processor', type=str, default='cpu', help='cpu/cuda')
 parser.add_argument('--batchsize', type=int, default=64, help='batch size')
 parser.add_argument('--lr', type=float, default=0.001, help='learning-rate')
-parser.add_argument('--epoch', type=int, default=10, help='epoch')
+parser.add_argument('--epoch', type=int, default=10, help='number of epoch')
 args = parser.parse_args()
 
 def calc_acc(preds, labels):
