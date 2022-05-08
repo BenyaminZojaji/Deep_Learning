@@ -45,5 +45,4 @@ end = time.time()
 # _, output=torch.max(preds, 1)
 preds = preds.cpu().detach().numpy()
 output = np.argmax(preds)
-classes = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
-print(f'{classes[output]}, Process-Time: {end-start}')
+print(f'{output}, Process-Time: {end-start}')
