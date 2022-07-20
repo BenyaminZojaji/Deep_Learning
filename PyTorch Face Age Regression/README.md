@@ -1,5 +1,5 @@
 ## Face Age Regression
-- Persian MNIST classification with `PyTorch`.
+
 - Dataset: <a href='https://www.kaggle.com/datasets/jangedoo/utkface-new'>utkface</a>
 
 
