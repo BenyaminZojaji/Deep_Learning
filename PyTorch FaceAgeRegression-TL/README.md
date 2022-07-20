@@ -1,4 +1,4 @@
-## Face Age Regression
+## Face Age Regression - TransferLearning
 - Dataset: <a href='https://www.kaggle.com/datasets/jangedoo/utkface-new'>utkface</a>
 
 - Inference:
